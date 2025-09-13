@@ -1,0 +1,33 @@
+public class GlobalSettings {
+    // Log info
+    public static int logCounter = 1;
+
+    // Cell general information
+    public static final int columns_count = 60;
+    public static final int rows_count = 40;
+    public static final int nodeSize = 22;
+
+    // Cell limitations info
+    public static int robotCount = 0;
+    public static int startCellCount = 0;
+    public static int targetCellCount = 0;
+
+    // Menu information
+    public static final int menuWidth = 300;
+    public static int buttonHeight = 350;
+    public static int buttonWidth = 450;
+    public static int buttonCount = 9;
+
+    public static String [] buttonTexts = new String[] {"Close", "Wall", "Empty",
+            "Start", "Target", "Unknown",
+            "Robot", "Save", "Reset"
+    };
+    // Show cell info
+    // Show cell costs
+    // Robot Display On/Off
+    // Sensor count
+    // Auto pilot with time frame
+
+    public static int robotStepSpeed = 1; // 1 second
+    public static int robotSize = nodeSize / 2;
+}
