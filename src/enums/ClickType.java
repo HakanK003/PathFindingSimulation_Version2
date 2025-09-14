@@ -10,5 +10,6 @@ public enum ClickType {
     TARGET,
     ROBOT,
     SAVE,
-    RESET
+    RESET,
+    NORMAL
 }

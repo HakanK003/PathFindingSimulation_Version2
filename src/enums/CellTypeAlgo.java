@@ -14,7 +14,7 @@ public enum CellTypeAlgo {
     ROBOT(Color.magenta),
     SENSORS(Color.yellow);
 
-    final Color color;
+    public final Color color;
 
     CellTypeAlgo(Color color){
         this.color = color;

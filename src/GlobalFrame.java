@@ -1,5 +1,6 @@
 import frameMapComponents.MapPanel;
 import frameMapComponents.MenuPanel;
+import settings.GlobalSettings;
 
 import javax.swing.*;
 import java.awt.*;

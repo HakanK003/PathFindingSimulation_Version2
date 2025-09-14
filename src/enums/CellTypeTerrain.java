@@ -19,9 +19,12 @@ public enum CellTypeTerrain {
     ROBOT(Color.magenta),
     SENSORS(Color.yellow);
 
-    final Color color;
+    public final Color color;
 
     CellTypeTerrain(Color color){
         this.color = color;
     }
 }
+
+// Cell enum is group of constants that behave similarly to objects
+// In this case all types of cells are cells, but they will have different purposes
