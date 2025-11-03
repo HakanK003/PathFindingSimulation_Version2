@@ -7,8 +7,8 @@ public class GlobalSettings {
     public static int logCounter = 1;
 
     // Cell general information
-    public static final int columns_count = 13;
-    public static final int rows_count = 9;
+    public static final int columns_count = 15;
+    public static final int rows_count = 11;
     public static final int nodeSize = 100;
 
     // Cell limitations info

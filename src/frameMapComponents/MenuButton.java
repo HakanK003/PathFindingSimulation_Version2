@@ -9,7 +9,6 @@ import java.awt.event.ActionListener;
 
 import static pathFindAlgos.AStar.*;
 import static utils.utilityMix.textIsATerrainType;
-import static utils.utilityMix.textIsATerrainType;
 
 public class MenuButton  extends JButton implements ActionListener {
     static ClickType clickType = ClickType.NORMAL;
@@ -30,7 +29,7 @@ public class MenuButton  extends JButton implements ActionListener {
         } else if (buttonText.equals("ROBOTSTART")){
             /// Implement Robot Start Progress
         }else if (buttonText.equals("FINDPATH")){
-            autoSearch(MapPanel.currentNode);
+            autoSearchPath(MapPanel.currentNode);
         }
         else {
             System.out.println("USER INPUT BOX REQUEST");

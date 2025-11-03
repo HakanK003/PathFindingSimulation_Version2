@@ -9,7 +9,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import static pathFindAlgos.AStar.setInitialCostOnNodes;
 import static utils.utilityMix.textIsATerrainType;
 
 public class MapNode extends JButton implements ActionListener {

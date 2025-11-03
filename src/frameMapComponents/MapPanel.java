@@ -6,8 +6,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
-import static pathFindAlgos.AStar.setInitialCostOnNodes;
-
 public class MapPanel extends JPanel {
 
     // Global Configuration --- --- --- ||| --- --- --- ||| --- --- --- ||| --- --- ---
